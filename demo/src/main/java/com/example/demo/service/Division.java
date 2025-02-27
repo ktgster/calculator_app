@@ -1,0 +1,8 @@
+package com.example.demo.service;
+
+public class Division extends Calculation {
+    @Override
+    public double operation(double x, double y) {
+        return x / y;
+    }
+}
